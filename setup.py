@@ -31,7 +31,7 @@ setup(
     name="pyGeoPressure",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
-    python_requires=">=2.7, <3.7",
+    python_requires=">=2.7, <3.8",
     install_requires=[
         'future',
         'pathlib2;python_version=="2.7"',
